@@ -1,5 +1,7 @@
 fastapi
 uvicorn
+Flask
+gunicorn
 jinja2
 requests
 numpy
