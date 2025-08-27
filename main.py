@@ -17,7 +17,7 @@ CORS(app)
 groq_api_key = os.environ.get("GROQ_API_KEY", "").strip()
 if not groq_api_key:
     # Use the hardcoded key as fallback
-    groq_api_key = "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"
+    groq_api_key = ""
 
 try:
     groq_client = Groq(api_key=groq_api_key)
